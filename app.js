@@ -34,8 +34,6 @@ function verificarChute() {
         tentativas++;
         limparCampo();
     }
-    let chuteLen = chute.length()
-    let chuteLen2 = chute.length()
 }
 
 function gerarNumeroAleatorio() {
@@ -52,6 +50,7 @@ function gerarNumeroAleatorio() {
         console.log(listaDeNumerosSorteados)
         return numeroEscolhido;
     }
+
 }
 
 function limparCampo() {
